@@ -18,33 +18,33 @@ function App() {
       </Route>
       <Switch>
         <Route path="/meals/reservations/:id">
-          <NavigateBar />
+          {/* <NavigateBar /> */}
           <br />
           <Reservations />
         </Route>
         <Route path="/meals/reviews/:id">
-          <NavigateBar />
+          {/* <NavigateBar /> */}
           <br />
           <Reviews />
         </Route>
       </Switch>
       <Route exact path="/meals">
-        <NavigateBar />
+        {/* <NavigateBar /> */}
         <br />
         <AddMeal />
       </Route>
       <Route exact path="/reviews">
-        <NavigateBar />
+        {/* <NavigateBar /> */}
         <br />
         <TotalReview />
       </Route>
       <Route path="/menu">
-        <NavigateBar />
+        {/* <NavigateBar /> */}
         <br />
         <Menu />
       </Route>
       <Route path="/contactus">
-        <NavigateBar />
+        {/* <NavigateBar /> */}
         <br />
         <ContactUs />
       </Route>
