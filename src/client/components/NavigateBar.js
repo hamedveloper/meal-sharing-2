@@ -18,16 +18,16 @@ export function NavigateBar() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="./menu">Menu</a>
+          <a href="/menu">Menu</a>
         </li>
         <li>
-          <a href="./meals">Add a Meal</a>
+          <a href="/meals">Add a Meal</a>
         </li>
         <li>
-          <a href="./reviews">Reviews</a>
+          <a href="/reviews">Reviews</a>
         </li>
         <li>
-          <a href="./contactus">Contact us</a>
+          <a href="/contactus">Contact us</a>
         </li>
       </ul>
     </nav>
